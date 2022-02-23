@@ -1,0 +1,16 @@
+p {
+    background-color: red;
+    height: 200px;
+}
+
+h1 {
+    display: inline;
+    background-color: blue;
+    height: 200px;
+}
+
+h2 {
+    display: inline-block;
+    background-color: palegreen
+    height: 200px;
+}

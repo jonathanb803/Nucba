@@ -1,0 +1,29 @@
+* {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+
+h3 {
+   color:blue; 
+}
+
+.titulo {
+    color:red;
+}
+
+.titulo2 {
+    color:pink;
+}
+
+#elmejortitulo {
+                color:blueviolet;
+                background-color: red;
+                font-size: 100px;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(53, 33, 9);
+}

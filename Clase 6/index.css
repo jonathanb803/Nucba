@@ -1,0 +1,13 @@
+.Parrafo1{
+    margin: 10px 50px 80px 40px;
+
+    border: 10px solid red;
+    padding: 40px
+}
+
+.Parrafo2{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    overflow: auto;
+}
