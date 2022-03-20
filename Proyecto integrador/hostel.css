@@ -111,9 +111,6 @@ header {
 
 .icon-menu {
     font-size: 50;
-}
-.icon-menu {
-    font: 20;
     display: none!important;
 }
 
@@ -288,4 +285,3 @@ h4 {
         display:none;
     }
 }
-
