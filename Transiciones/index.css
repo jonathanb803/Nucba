@@ -1,0 +1,12 @@
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: background-color 2s, margin-left 3s, margin-top 1s;
+}
+
+.cuadrado:hover {
+    background-color: bisque;
+    margin-left: 30px;
+    margin-top: 100px;
+}

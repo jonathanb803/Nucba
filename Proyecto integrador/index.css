@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.contenedor-pag {
+    display: grid;
+    grid-template-columns: [x0] 500px [x1] 500px [x2] 500px [x3];
+    grid-template-rows: [y0] 150px [y1] 600px [y2] 150px [y3];
+}
+
+/* HEADER */
+
+.header {
+    background-color: rgb(219, 211, 211);
+    grid-column: x0 / x3;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+img {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+nav {
+float: right;
+}
+    
+nav ul li {
+list-style: none;
+margin-left: 40px;
+padding: 50px 10px;
+float: left;
+}
+    
+nav ul li a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+position: relative;
+font-style: sans-serif;
+}
+    
+nav ul li a::before {
+display: block;
+content: "";
+width: 0%;
+background:whitesmoke;
+height: 5px;
+top: -10;
+position: absolute;
+transition: widht 0.2s;
+}
+    
+nav ul li a:hover::before {
+    width: 100%; 
+} 
+
+/* .icon-menu {
+    font-size: 40px;
+    display: none!important;
+} */
+
+/* @media (max-width: 700px) {
+ul{
+display: none ;
+}
+
+li  {
+width: 50%;
+text-align: center;
+}
+
+.icon-menu {
+display: inline-block!important
+}
+
+.change:checked ~ ul {
+display: inline-block!important 
+}
+
+} */
+
+
+
+/* SIDEBAR  */
+
+.sidebar {
+    background-color: blue;
+    grid-row: y1 / y2;
+}
+
+.img-2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/* CONTENIDO */
+
+.content {
+    background-color: white;
+    grid-column: x1 / x3;
+    grid-row: y1 / y2;
+    background-image: url("/arbisoftimages-2925381-4-image.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+
+h1 {
+    padding: 50px;
+    margin-left: 80px;
+}
+
+
+.footer {
+    background-color: pink;
+    grid-column: x0 / x3;
+    grid-row: y2 / y3;
+}
+
+
+
+
+
+
+
+
+
+
+

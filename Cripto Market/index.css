@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&family=Roboto:ital,wght@0,900;1,400;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px;
+    color: rgba(255, 196, 0, 0.767);
+    font-weight: 800;
+}
+
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+.navegacion ul {
+   margin-top: 100px;
+}
+
+.logo-pag {
+    width: 120px;
+    height: 120px;
+    margin-top: 100px;
+}
+
+.contenedor-parrafo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 30%; comentario */
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.contenedor-parrafo h2 {
+    padding-left: 150px;
+}
+
+.contenedor-img {
+    /* max-width: 100%;
+    max-height: 100%; */
+    width: 600px;
+    height: 300px;
+}
+
+.contenedor-img img { 
+    width: 400px;
+    height: 300px;
+    /* padding-right: 500px; */
+}
+
+.titulo-info {
+    color: rgba(255, 196, 0, 0.767);
+    font-weight: 500;
+}
+
+.contenedor-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+}
+
+.li-nav:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.btn-atrapar:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+
+.titulo-info {
+    width: 100%;
+}
+
+.btn-atrapar {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 12px;
+    background-color: orange;
+    height: 80px;
+    width: 80%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.seccion-crypto {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-negro {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.parrafo-negro {
+    font-size: 30px;
+    font-weight: 300;
+}
